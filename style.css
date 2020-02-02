@@ -1,0 +1,43 @@
+header {
+    background-color: black;
+    height: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    padding-top: 5px;
+    padding-right: 700px;
+}
+
+.menu  {
+    padding: 0px 20px;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* padding-bottom: 20px; */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+}
+
+.navbar a.menu:hover {
+    border-bottom: 1px solid white;
+}
+
+.rocket {
+    background-image: url("./assets/rocket.jpg");
+    background-size: cover;
+    background-position: center;
+}
