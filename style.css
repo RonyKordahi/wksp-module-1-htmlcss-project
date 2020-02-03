@@ -35,14 +35,25 @@ ul {
     background: black;
     position: relative;
     display: inline-block;
-    display: none;
 }
 
-.menu2:hover .dropdown-list {
+.dropdown-list {
+    display: none;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.dropdown-list li {
+    background:black;
+    padding: 20px 10px;
+    border: 1px solid red;
+}
+
+.dropdown:hover .dropdown-list {
     display: block;
     position: absolute;
-    top: 100%;
-    right: 0;
+    top: 30px;
+    align-content: center;
 }
 
 .menu, .menu2 {
@@ -97,6 +108,11 @@ ul {
     display: inline-block;
 }
 
+.features {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .features-list {
     list-style-type: none;
     display: flex;
@@ -141,6 +157,7 @@ ul {
 .gradient {
     text-align: right;
     background-color: blue;
+    color: white;
     background-image: linear-gradient(to right, white, blue);
     padding: 100px 30px;
 }
@@ -237,21 +254,6 @@ ul {
     z-index: -1;
     filter: brightness(80%);
 }
-
-/* .test1 {
-    display: none;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.cat1:hover .test1 {
-    display: flex;
-    color: red;
-    text-align: center;
-} */
 
 .email {
     text-align: center;
